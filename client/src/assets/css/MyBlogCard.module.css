@@ -1,0 +1,55 @@
+.profileIcon {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  margin: 0 20px 0 0;
+}
+.userName {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 10px 0 0;
+}
+.postDate {
+  font-size: 15px;
+  font-weight: 500;
+}
+.blogImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.35rem gray);
+}
+.blogTitle {
+  font-size: 25px;
+  font-weight: 800;
+}
+.blogDescription {
+  font-size: 15px;
+  font-weight: 500;
+}
+.userPosition {
+  font-size: 17px;
+  font-weight: 500;
+}
+.chip {
+  background-color: rgb(232, 232, 232);
+  color: black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 20px 0 0;
+}
+.MarginTop {
+  margin-top: 20px;
+}
+.fontAwesomeIcon {
+  margin-left: 10px;
+  font-size: 25px;
+}
+.iconRed {
+  color: crimson;
+  margin: 0 0 0 30px;
+}
+.iconBlue {
+  color: blueviolet;
+}
