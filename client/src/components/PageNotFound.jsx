@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const PageNotFound = () => {
   const navigate = useNavigate();
   const goHome = () => {
-    navigate("/login");
+    navigate("/");
   };
   return (
     <>

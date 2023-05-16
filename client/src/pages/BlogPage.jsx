@@ -84,7 +84,7 @@ const BlogPage = ({ CheckAuthentication }) => {
       CheckAuthentication();
       sessionStorage.setItem("isLoggedOut", "true");
       localStorage.removeItem("userId");
-      navigate("/login");
+      navigate("/");
     }, 3000);
   };
   const customToastStyle = {

@@ -22,7 +22,7 @@ const App = () => {
     <>
       <Routes>
         <Route
-          path="/login"
+          path="/"
           element={<LoginPage CheckAuthentication={CheckAuthentication} />}
         />
         <Route
@@ -31,7 +31,7 @@ const App = () => {
             Authenticated ? (
               <BlogPage CheckAuthentication={CheckAuthentication} />
             ) : (
-              <Navigate to="/login" />
+              <Navigate to="/" />
             )
           }
         />
@@ -41,7 +41,7 @@ const App = () => {
             Authenticated ? (
               <PostBlog CheckAuthentication={CheckAuthentication} />
             ) : (
-              <Navigate to="/login" />
+              <Navigate to="/" />
             )
           }
         />
@@ -51,7 +51,7 @@ const App = () => {
             Authenticated ? (
               <BlogUpdate CheckAuthentication={CheckAuthentication} />
             ) : (
-              <Navigate to="/login" />
+              <Navigate to="/" />
             )
           }
         />
@@ -61,7 +61,7 @@ const App = () => {
             Authenticated ? (
               <About CheckAuthentication={CheckAuthentication} />
             ) : (
-              <Navigate to="/login" />
+              <Navigate to="/" />
             )
           }
         />
